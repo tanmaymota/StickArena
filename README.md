@@ -20,6 +20,12 @@ A small 2D fighting game prototype made with Godot 4.7. It is a school-project-s
 
 The project uses Godot's GL Compatibility renderer and does not require external art assets.
 
+## Play in a browser
+
+The project includes a Web export preset and a GitHub Actions workflow that builds the browser version and publishes the `web/` landing page to GitHub Pages after changes are pushed to `main`. Once Pages is enabled for the repository and the first deployment completes, players can open the site URL and play without installing Godot.
+
+The web build runs locally in each player's browser; it does not add online multiplayer. Browser audio may require one click or key press before sound is allowed.
+
 ## Controls
 
 | Action | Player 1 | Player 2 |
@@ -50,3 +56,4 @@ The recorded Godot 4.7.2 headless smoke run on October 9, 2026 completed **40 ch
 ## About
 
 Stick Arena is a learning prototype. Gameplay and visuals are still being refined; all fighter art is currently made from simple shapes and lines.
+
