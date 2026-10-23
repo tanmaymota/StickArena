@@ -46,15 +46,16 @@ Menus use Up/Down and Enter. Use Left/Right to change settings or stages, Esc to
 - `scripts/game/main.gd` - menus, match flow, CPU, stages, weapons, timer, and effects
 - `scripts/player/fighter.gd` - movement and fighter combat
 - `tests/runtime_smoke.gd` - headless gameplay smoke checks
-- `docs/TEST_CASES.md` - manual test plan and latest test results
-- `docs/Stick_Arena_Diagram_and_Test_Cases.pdf` - architecture diagram and test report
-- `docs/Stick_Arena_Architecture_Deep_Dive.pdf` - 60-page frontend and backend architecture guide
+
+## Presentation documents
+
+- `docs/Stick_Arena_Architecture_Deep_Dive.pdf` - 60-page frontend and backend architecture guide with detailed diagrams.
+- `docs/Stick_Arena_Project_Report.pdf` - 26-page project report: development scope, all major requested features, prompt history, testing summary, and presentation guide.
 
 ## Test status
 
-The recorded Godot 4.7.2 headless smoke run on October 9, 2026 completed **40 checks with 0 failures**. The main scene also launched for 90 frames without scene or script errors. This headless run does not verify physical keyboard play, rendered visuals, or audible sound; see `docs/TEST_CASES.md` for partial and manual checks.
+The recorded Godot 4.7.2 headless smoke run on October 9, 2026 completed **40 checks with 0 failures**. The main scene also launched for 90 frames without scene or script errors. This headless run does not verify physical keyboard play, rendered visuals, or audible sound; those manual checks and their expected outcomes are summarized in the Project Report.
 
 ## About
 
 Stick Arena is a learning prototype. Gameplay and visuals are still being refined; all fighter art is currently made from simple shapes and lines.
-
