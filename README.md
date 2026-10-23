@@ -48,6 +48,7 @@ Menus use Up/Down and Enter. Use Left/Right to change settings or stages, Esc to
 - `tests/runtime_smoke.gd` - headless gameplay smoke checks
 - `docs/TEST_CASES.md` - manual test plan and latest test results
 - `docs/Stick_Arena_Diagram_and_Test_Cases.pdf` - architecture diagram and test report
+- `docs/Stick_Arena_Architecture_Deep_Dive.pdf` - 60-page frontend and backend architecture guide
 
 ## Test status
 
